@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+
+  > h2 {
+    margin: 15px 0;
+  }
+
+  &__github {
+    font-family: "Monaco", serif;
+  }
+
+  &__search {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  &.logo--small {
+    font-size: 1.8rem;
+  }
+}

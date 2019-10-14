@@ -1,0 +1,25 @@
+.searchbar {
+  display: flex;
+  width: 650px;
+  height: 50px;
+
+  border-radius: 2px;
+  box-shadow: var(--box-shadow);
+
+  &__input {
+    flex-grow: 1;
+    padding: 0 15px;
+    border: none;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: var(--color-primary);
+    cursor: pointer;
+  }
+}
