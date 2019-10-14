@@ -1,4 +1,10 @@
 .result {
   max-width: 1000px;
   margin: 0 auto;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+  }
 }

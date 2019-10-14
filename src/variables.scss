@@ -2,6 +2,11 @@
   --color-primary: #ac53f2;
   --color-text: #5c5c5c;
   --white: #ffffff;
+  --black: #000000;
+
+  --error-bg: rgba(236, 18, 18, 0.1);
+  --error-text: rgba(236, 18, 18, 1);
 
   --box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+  --box-shadow-error: 0 0 4px 0 rgba(236, 18, 18, 0.8);
 }
